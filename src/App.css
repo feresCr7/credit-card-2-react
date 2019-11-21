@@ -1,22 +1,75 @@
-.App {
-  text-align: center;
-}
+.credit-card {
+  width:35% ;
+  background-image: url(https://wallpapertag.com/wallpaper/full/2/6/5/460280-cool-space-background-wallpapers-1920x1080-for-hd-1080p.jpg);
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 22px;
+  border-radius: 40px;
+  font-family: sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
+  
+  
+  
+}
+.card{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 40px;
+  margin: 0px;
+}
+.infos{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+h1{
+  color: white;
+  
+  font-family:  sans-serif;
+}
+.number{
+ color: #e5ffb5;
+ background-color: #255a5e;
+ font-size: 27px;
+ margin: 0px;
+ letter-spacing: 5px;
+ 
+ 
+}
+.name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:25px;
 }
 
-.App-link {
-  color: #09d3ac;
+
+
+
+
+  
+
+.number-date{
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.ValidThru{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 187px;
+  
+}
+.code-ps{
+  font-size: 30px;
+  
+}
+  
+  
+
+.container{
+  width:70%;
+
+}
+.m-y{
+  font-size: 26px;
 }
